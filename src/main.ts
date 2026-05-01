@@ -6,9 +6,46 @@
 //   3. Uji fungsi listBooks untuk melihat semua data
 //   4. Uji fungsi searchBook dengan dan tanpa parameter
 // Silakan bereksplorasi untuk memastikan semua fungsi berjalan dengan baik
-
-console.log("Book Management Application - Week 6");
-console.log("=====================================");
+import { addBook, listBooks, searchBook } from './functions/bookManager';
+console.log('Book Management Application - Week 6');
+console.log('=====================================');
 
 // Mulai pengujian di bawah ini
+addBook({
+  title: 'Habis Gelap Terbitlah Terang',
+  author: 'R.A. Kartini',
+  publicationYear: 1944,
+});
 
+addBook({
+  title: 'jujutsu Kaisen',
+  author: 'Gege Akutami',
+  publicationYear: 2020,
+});
+
+addBook({
+  title: 'Rental Girlfriend',
+  author: 'Reiji Miyajima',
+  publicationYear: 2019,
+});
+
+addBook({
+  title: 'Cara Menjadi Orang Sukses',
+  author: 'Willy Salim',
+  publicationYear: 2024,
+});
+
+addBook({
+  title: 'Uma Musume: Cinderella Gray',
+  author: 'Itou Junnosuke & Sugiura Masafumi',
+  publicationYear: 2020,
+});
+
+listBooks();
+
+searchBook('uma');
+searchBook('Rental');
+
+searchBook('belum ditulis');
+
+searchBook();
