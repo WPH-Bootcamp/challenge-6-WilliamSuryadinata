@@ -40,5 +40,5 @@ console.log('=====================================');
 (0, bookManager_1.listBooks)();
 (0, bookManager_1.searchBook)('uma');
 (0, bookManager_1.searchBook)('Rental');
-(0, bookManager_1.searchBook)('belum ditulis');
+(0, bookManager_1.searchBook)('jujur kasian');
 (0, bookManager_1.searchBook)();
