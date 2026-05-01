@@ -46,6 +46,6 @@ listBooks();
 searchBook('uma');
 searchBook('Rental');
 
-searchBook('belum ditulis');
+searchBook('jujur kasian');
 
 searchBook();
